@@ -1,0 +1,123 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    height: 2000px;
+}
+
+.outer-container {position: relative;
+    border: 2px dashed black;
+    width: 75vw;
+    /* height: 110vh; */
+    height: 100vh;
+    margin: 40px auto;
+    position: relative;
+}
+
+.inner-container {
+    border: 2px solid black;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 1rem;
+    
+    /* background-color: aqua; */
+}
+
+/* Absolute position always needs a relative position parent */
+.absolute {
+    background-color: blue;
+    /* position: static;  default*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1; /*Provided when we want this one to overlap other*/
+}
+
+/* Relative doesnt need a parent relative position container it automatically takes its parent as a reference */
+.relative {
+    background-color: yellow;
+    color: black;
+    position: relative;
+    top: 100px;
+    left: -200px
+}
+
+/* Fixed position box takes refernce as the body like from extreme top 
+It doesnt move even with the scroll*/
+
+.fixed {
+    background-color: red;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* Sticky is abit different from fixed. It sticks to the position to a certain limit and then goes with the flow */
+
+.sticky {
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
+
+/*------------ Section 2 starts here ------ */
+
+/* ////////////////////// */
+
+html {
+    scroll-behavior: smooth;
+}
+section {
+    height: 100vh;
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+
+header, footer {
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+header {
+    font-size: 5rem;
+    position: sticky;
+    top: 0;
+}
+footer {
+    font-size: 3rem;
+    background-color: black;
+    /* position: fixed; */
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.social {
+    background-color: blue;
+    font-size: inherit;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+}
+a:visited {
+    color: white;
+}

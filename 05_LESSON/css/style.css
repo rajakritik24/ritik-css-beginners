@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+.container {
+    /* here 1em = font-size (1.5rem) */
+    border: 10px double red;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin: 1.5em 2em;
+    /*
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+
+    Clockwise thing
+    */
+
+    padding: 1.5em 2em 3em 4em;
+    outline: 5px solid purple;
+    outline-offset: 5px;
+    background-color: antiquewhite;
+}
+
+.circle {
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    border-radius: 100px;
+    margin: 3rem auto;
+    outline: 2px solid purple;
+    outline-offset: 0.25rem ;
+}

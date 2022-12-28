@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    
+}
+
+nav {
+    border: 2px solid #333;
+    border-radius: 2rem;
+    width: 60%;
+    margin: 3rem auto;
+    min-height: 80vh;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+nav h2 {
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+li a {
+    display: block;
+}
+nav li a, li a:visited {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-top: 1px solid #333;
+}
+
+li a:hover, li a:focus {
+    background-color: #333;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+
+/* li:nth-child(5) a:hover {
+    border-radius: 0 0 2rem 2rem;
+} */
+
+li:last-child a:hover {
+    border-radius: 0 0 2rem 2rem;
+}

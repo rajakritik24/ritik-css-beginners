@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+
+body {
+    padding: 10%;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer; /*default*/
+    color: hsl(207,44%,49%)
+}
+
+/* Pseudo classes  */
+
+a:visited {
+    color: red
+}
+
+a:hover, a:focus {
+    color: hsl(189, 44%, 49%);
+    background-color: bisque;
+    /* opacity: 0.8; */
+}
+
+a:active {
+    color: green
+}
+ 

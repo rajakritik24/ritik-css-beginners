@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    /* width: 100vw; not desirable instead use percentage */
+}
+
+header {
+    width: 50%;
+    border: 1px solid blue;
+}
+h1 {
+    border: 2px dashed red;
+    width: 80%; /*80% of parent*/
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main {
+    font-size: 2rem;
+}
+p {
+    font-size: 2rem; 
+    width: 40ch;
+    /* rem -> root em  2 * default browser size */
+    /* em -> amplified em 2 * size of parent font-size*/
+}

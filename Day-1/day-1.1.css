@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  background-color: rgb(21, 21, 107);
+  padding: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.child {
+  background-color: rgb(7, 227, 227);
+  height: 250px;
+  /* margin: 0 auto; */
+  width: 50%;
+}

@@ -1,0 +1,33 @@
+* {
+    font-family: monospace;
+    /* selects all the elements */
+}
+
+body {
+    font-size: 20px;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+.gray {
+    color: gray;
+}
+
+#second {
+    font-style: italic;
+}
+
+p span {
+    color: red;
+    background-color: goldenrod;
+}
+
+/* p {
+    color: green!important 
+} */

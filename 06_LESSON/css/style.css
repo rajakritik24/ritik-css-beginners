@@ -1,0 +1,39 @@
+/* Typography is a way text is arranged and represented */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+input,button {
+    font: inherit
+}
+
+p{
+
+    /* Starting with text  */
+
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+
+    /* capitalizes first letter of each word  */
+
+    text-align: justify;
+    /* text-indent: 5em */
+
+
+    /* Not starting with text  */
+    
+    line-height: 1.5;
+    /* letter-spacing: 0.1em; */
+    /* word-spacing: 1em; */
+
+
+    /* Starting with font  */
+
+    /* font-weight: 700; */
+    /* font-style: italic; */
+}
